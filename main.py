@@ -9,6 +9,7 @@ def ytdl(x):
 
 box = tk.Tk()
 box.title("Youtube downloader")
+box.wm_iconbitmap('icon.ico')
 box.geometry('300x70')
 
 url = tk.Entry(box)
